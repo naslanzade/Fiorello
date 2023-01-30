@@ -1,0 +1,367 @@
+@import "../../partials/variables";
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../../../fonts/PlayfairDisplay-SemiBold.ttf);
+    font-family: mySecondFont;
+    src: url(../../../fonts/Lora-Italic.ttf);
+    font-family: myThirdFont;
+    src: url(../../../fonts/DancingScript-Medium.ttf);
+
+}
+
+
+
+
+
+#navbar {
+    .navarea {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+        .left {
+
+            img {
+                width: 250px;
+            }
+        }
+
+        .right {
+
+            a {
+                text-decoration: none;
+                color: $navbar-color;
+                margin-left: 20px;
+                padding: 10px;
+            }
+
+            a:hover {
+                outline: black solid 1px;
+
+            }
+
+            i:hover {
+                color: red;
+            }
+
+
+
+        }
+
+
+
+
+
+    }
+
+}
+
+
+#slider {
+    .slides {
+        position: relative;
+        background-color: $main-bg-color;
+
+        .sliders {
+            display: flex;
+            justify-content: space-around;
+
+            .description {
+                margin-top: 150px;
+
+                span {
+                    font-size: 55px;
+                    font-family: myFirstFont;
+                }
+
+                p {
+                    margin-top: 20px;
+                    width: 506px;
+                    font-size: 20px;
+                    font-family: mySecondFont;
+                    color: rgb(178, 175, 175);
+                }
+
+                .sara {
+                    font-size: 60px;
+                    font-family: myThirdFont;
+                    color: rgb(192, 62, 62);
+                }
+            }
+
+            .slider-image {
+                img {
+                    width: 100%;
+                    height: 450px;
+                }
+            }
+        }
+
+
+    }
+}
+
+
+@media screen and (max-width:992px) {
+    #slider .slides .sliders .description span {
+        font-size: 25px;
+    }
+
+    #slider .slides .sliders .description p {
+        font-size: 15px;
+        width: 250px;
+    }
+
+    #slider .slides .sliders .description .sara {
+        font-size: 25px;
+    }
+
+
+}
+
+
+#filter {
+    .navarea {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+
+        .left-side {
+            a {
+                text-decoration: none;
+                color: $navbar-color;
+                margin-left: 30px;
+            }
+
+            :nth-child(1) {
+                color: red;
+            }
+
+            a:hover {
+                color: red;
+            }
+        }
+
+        .right-side {
+            a {
+                text-decoration: none;
+                color: $navbar-color;
+
+            }
+        }
+    }
+}
+
+
+#cards {
+    .card {
+        margin-top: 50px;
+        width: 100%;
+        height: 330px;
+        border: none;
+
+        .product-image {
+            img {
+                width: 100%;
+                transition: 0.5s;
+            }
+
+            img:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        .product-name {
+            p {
+                margin-top: 20px;
+                text-align: center;
+                line-height: 0px;
+                font-size: 15px;
+                font-family: inherit;
+            }
+        }
+
+        .product-price {
+            p {
+                text-align: center;
+                font-size: 13px;
+                color: rgb(178, 175, 175);
+                font-family: inherit;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:992px) {
+    #cards .card .product-image img {
+        height: 320px;
+    }
+}
+
+
+#card-2 {
+    .card {
+        margin-top: 50px;
+        width: 100%;
+        height: 330px;
+        border: none;
+
+        .product-image {
+            img {
+                width: 100%;
+                transition: 0.5s;
+            }
+
+            img:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        .product-name {
+            p {
+                margin-top: 20px;
+                text-align: center;
+                line-height: 0px;
+                font-size: 15px;
+                font-family: inherit;
+            }
+        }
+
+        .product-price {
+            p {
+                text-align: center;
+                font-size: 13px;
+                color: rgb(178, 175, 175);
+                font-family: inherit;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:992px) {
+    #card-2 .card .product-image img {
+        height: 320px;
+    }
+}
+
+
+#video-part {
+    margin-top: 150px;
+
+    .info-with-video {
+        background-color: $main-bg-color;
+
+        .info {
+
+
+
+            .video {
+
+                display: flex;
+                justify-content: space-between;
+
+                .video-source {
+
+                    iframe {
+                        transition: 0.5s;
+                    }
+
+                    iframe:hover {
+                        transform: scale(1.1);
+                    }
+
+
+                }
+
+                .desc {
+                    .desc-1 {
+                        p {
+                            font-family: myFirstFont;
+                            font-size: 35px;
+                            width: 370px;
+                        }
+                    }
+
+                    .desc-2 {
+                        p {
+                            font-family: inherit;
+                            font-size: 18px;
+                            width: 600px;
+                            color: rgb(178, 175, 175);
+                        }
+                    }
+
+                    .icon {
+                        ul {
+                            list-style: none;
+                            line-height: 35px;
+
+                            li {
+                                .fa-regular {
+                                    color: red;
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+    }
+
+}
+
+
+#experts {
+    .info {
+        margin-top: 75px;
+
+        .heading {
+            p {
+                text-align: center;
+                font-family: myFirstFont;
+                font-size: 45px;
+            }
+        }
+
+        .main-part {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: rgb(161, 158, 158);
+        }
+    }
+
+
+    .card {
+        border: none;
+
+        .expert-image {
+            text-align: center;
+        }
+
+        .expert-name {
+            text-align: center;
+
+            p {
+                margin-top: 10px;
+                font-size: 14px;
+
+            }
+        }
+
+        .position {
+            text-align: center;
+
+            p {
+                font-size: 12px;
+                font-family: inherit;
+                line-height: 10px;
+                color: rgb(178, 175, 175);
+            }
+
+        }
+    }
+}
