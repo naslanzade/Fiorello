@@ -1,1 +1,174 @@
-/*# sourceMappingURL=blog.css.map */
+@font-face {
+  font-family: myFirstFont;
+  src: url(../../../fonts/PlayfairDisplay-SemiBold.ttf);
+  font-family: mySecondFont;
+  src: url(../../../fonts/Lora-Italic.ttf);
+  font-family: myThirdFont;
+  src: url(../../../fonts/DancingScript-Medium.ttf);
+  font-family: myFooterFont;
+  src: url(../../../fonts/Montserrat-Italic.ttf);
+}
+#navbar .navarea {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+#navbar .navarea .left img {
+  width: 250px;
+}
+#navbar .navarea .right a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  padding: 10px;
+}
+#navbar .navarea .right a:hover {
+  outline: black solid 1px;
+}
+#navbar .navarea .right i:hover {
+  color: red;
+}
+
+#sliders .slide-side {
+  background-color: rgb(249, 247, 247);
+  height: 200px;
+}
+#sliders .slide-side .slide-blog {
+  margin-top: 30px;
+}
+#sliders .slide-side .slide-blog .blog p {
+  font-family: myFirstFont;
+  margin-top: 20px;
+  font-size: 40px;
+}
+#sliders .slide-side .slide-blog .desc p {
+  font-family: mySecondFont;
+  line-height: 1px;
+  color: rgb(182, 178, 178);
+  font-size: 17px;
+}
+
+#slide-image .images {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  width: 100%;
+}
+#slide-image .images .left-side .image img {
+  width: 100%;
+}
+#slide-image .images .right-side {
+  margin-left: 70px;
+}
+#slide-image .images .right-side .search {
+  width: 300px;
+  margin-left: 25px;
+}
+#slide-image .images .right-side .search input {
+  width: 200px;
+  outline: none;
+  border: 1px rgb(186, 185, 185) solid;
+  height: 40px;
+}
+#slide-image .images .right-side .search input i .fa-solid {
+  color: rgb(186, 185, 185);
+}
+#slide-image .images .right-side .search input::-moz-placeholder {
+  font-size: 13px;
+  color: rgb(182, 178, 178);
+}
+#slide-image .images .right-side .search input:-ms-input-placeholder {
+  font-size: 13px;
+  color: rgb(182, 178, 178);
+}
+#slide-image .images .right-side .search input::placeholder {
+  font-size: 13px;
+  color: rgb(182, 178, 178);
+}
+#slide-image .images .right-side .category .services p {
+  margin-left: 25px;
+  font-family: myFooterFont;
+  font-weight: 300;
+  margin-top: 50px;
+  font-size: 15px;
+}
+#slide-image .images .right-side .category .categories ul li {
+  list-style: none;
+}
+#slide-image .images .right-side .category .categories ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  font-family: myFooterFont sans-serif;
+  color: rgb(161, 158, 158);
+}
+#slide-image .images .right-side .category .categories ul li a:hover {
+  color: red;
+}
+#slide-image .images .right-side .recent p {
+  margin-left: 30px;
+  font-family: myFooterFont;
+  font-weight: 300;
+  margin-top: 50px;
+  font-size: 15px;
+}
+#slide-image .images .right-side .posts .recent-posts {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#slide-image .images .right-side .posts .recent-posts .image img {
+  width: 75px;
+}
+#slide-image .images .right-side .posts .recent-posts .comment a {
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  color: black;
+}
+#slide-image .images .right-side .posts .recent-posts .comment a:hover {
+  color: red;
+}
+#slide-image .images .right-side .posts .recent-posts .comment p {
+  font-size: 12px;
+  color: rgb(182, 178, 178);
+}
+#slide-image .blog {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+#slide-image .blog .main .heading p {
+  font-family: myFirstFont;
+  margin-top: 0px;
+  font-size: 40px;
+}
+#slide-image .blog .main .comment {
+  width: 800px;
+}
+#slide-image .blog .main .comment p {
+  font-size: 15px;
+  color: rgb(163, 161, 161);
+}
+#slide-image .blog .main .comment-info {
+  word-spacing: 8px;
+}
+#slide-image .blog .main .comment-info a {
+  text-decoration: none;
+  color: rgb(163, 161, 161);
+  font-size: 13px;
+}
+#slide-image .blog .main .comment-info a:hover {
+  color: red;
+}
+#slide-image .blog .main .comment-info span {
+  color: rgb(163, 161, 161);
+  font-size: 13px;
+}
+#slide-image .blog .main .comment-info :nth-child(1) {
+  color: rgb(163, 161, 161);
+  font-size: 13px;
+}
+#slide-image .blog .main .comment-info :nth-child(3) {
+  color: black;
+  font-size: 13px;
+}/*# sourceMappingURL=blog.css.map */
