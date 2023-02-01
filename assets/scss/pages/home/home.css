@@ -200,6 +200,9 @@
   #video-part .desc .icon li {
     font-size: 15px;
   }
+  #video-part .info .video .video-source iframe {
+    width: 450px;
+  }
 }
 #experts .info {
   margin-top: 75px;
